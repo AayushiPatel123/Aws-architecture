@@ -175,3 +175,4 @@ resource "aws_route_table_association" "data_private_subnet_association_az2" {
   route_table_id = aws_route_table.app_private_route_table.id
 }
 
+
